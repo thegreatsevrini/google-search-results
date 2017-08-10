@@ -5,6 +5,8 @@ body, p, h3 {
 }
 #header {
   background-color: #f2f2f2;
+  width: 100%;
+  text-align: center;
 }
 .logo {
   margin: 10px;
@@ -24,17 +26,21 @@ a {
   text-decoration: none;
 }
 ul {
-  display: inline-block;
+  display: block;
   margin: 20px auto;
+  margin-bottom: 15px;
 
 }
 
 
 ul li {
   display: inline;
-  padding: 5px;
+  padding: 20px;
   margin-left: 20px;
   color: #808080;
+
+
+
 }
 
 .results {
@@ -55,5 +61,13 @@ ul li {
   font-size: 14px;
 }
 .longlogo {
-  margin: 0 auto;
+  position: relative;
+  left: 70px;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  position: fixed;
+  width: 100%;
 }
